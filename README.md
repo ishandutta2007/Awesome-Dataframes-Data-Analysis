@@ -42,11 +42,14 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+| Platform | Description | Valuation / Revenue (Company Size) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **Databricks** (Koalas / Pandas API on Spark) | Managed lakehouse platform with distributed pandas execution via Pandas API on Spark. | Valuation: ~$134B (Dec 2025 Series L) / ARR: ~$4.8B+ | $0.15 / DBU (Jobs Compute, Premium Tier) | Free Edition: perpetual serverless access with fair-usage limits (1 small SQL warehouse, no GPU); or 14-day Free Trial with $400 DBU credits |
+| **Snowflake** (Snowpark Python DataFrames) | Enterprise cloud data platform offering native DataFrame APIs via Snowpark Python executed on virtual warehouses. | Market Cap: ~$103B–$130B (Public: NYSE: SNOW) / TTM Revenue: ~$4.7B–$5.4B | $2.00 / credit (Standard Edition, X-Small warehouse = 1 credit/hour) | 30-day Free Trial with $400 in usage credits (no permanent free tier) |
+| **MotherDuck** | Serverless cloud analytics platform powered by DuckDB with dual-engine hybrid execution. | Valuation: ~$400M / Estimated ARR: ~$12M–$13M | $250.00 / month (Standard / Business Platform base tier) + usage | Free Tier: Forever free for up to 3 users, 10 GB cloud storage, and 10 hours of Pulse compute per month |
+| **Coiled** | Managed cloud infrastructure to scale Python and Dask workloads across clusters seamlessly. | Total Funding: ~$26M (Valuation: Undisclosed) / Estimated ARR: ~$5M–$10M | $0.05 / CPU-hour (Basic pay-as-you-go above free tier) | Free Tier: $25 monthly free usage credit allowance (~500 CPU-hours/month) forever, no credit card required |
+| **Polars Cloud** | Managed serverless and distributed compute cloud for Polars DataFrame execution. | Total Funding: ~$25M (Series A €18M, 2025) / Estimated ARR: <$5M | $0.05 / vCPU-hour (Pay-as-you-go beyond free allowance) | Free Tier: 10,000 CPU hours per month free forever (clusters up to 1,024 cores); plus 30-day full-feature trial |
 
-
-- **Databricks (Koalas / Pandas API on Spark)**  
-
-  **Managed lakehouse platform with distributed pandas execution** . **Pandas API on Spark** allows you to scale pandas workloads across multiple nodes—migrate applications without modifying code, with a single codebase that works on pandas locally and Spark in production  . **Best for**: teams already on Databricks or Spark who want pandas compatibility at cluster scale.
 
 
 
