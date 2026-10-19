@@ -77,77 +77,77 @@ All open-source tools below are strictly sorted in descending order by GitHub st
 
 ### 🏆 High-Performance Engines & Ecosystem Leaders
 
-1. **[Pandas](https://github.com/pandas-dev/pandas)** [![GitHub stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social&color=white)](https://github.com/pandas-dev/pandas/stargazers)  
+1. **[Pandas](https://github.com/pandas-dev/pandas)** [![GitHub_Stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social&color=white)](https://github.com/pandas-dev/pandas/stargazers)  
    **Flexible and powerful data analysis / manipulation library for Python** (BSD-3-Clause). The ecosystem standard for tabular manipulation in Python. Integrates natively with NumPy, scikit-learn, matplotlib, and PyTorch.  
    *Best for:* General exploratory data analysis (EDA), data cleaning, datasets that fit comfortably in memory (<10M rows).
 
-2. **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+2. **[Apache Spark](https://github.com/apache/spark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
    **Unified analytics engine for large-scale data processing** (Apache-2.0). Provides PySpark and the Pandas API on Spark to scale data pipelines seamlessly across massive compute clusters.  
    *Best for:* Multi-terabyte to petabyte-scale distributed batch ETL and enterprise lakehouses.
 
-3. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+3. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
    **In-process SQL OLAP database management system** (MIT) — often referred to as *"The SQLite for Analytics"*. Features columnar vectorized execution, direct zero-copy querying of Parquet, CSV, and Arrow files, and automated disk spilling.  
    *Best for:* Sub-second analytical SQL scans, aggregations on local files, and serverless analytical data apps without database server overhead.
 
-4. **[Polars](https://github.com/pola-rs/polars)** [![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+4. **[Polars](https://github.com/pola-rs/polars)** [![GitHub_Stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
    **Blazingly fast DataFrames library implemented in Rust with Apache Arrow** (MIT). Multi-threaded by default, featuring an advanced query planner with predicate and projection pushdown, streaming out-of-core execution, and expressive Python/Rust/Node.js APIs.  
    *Best for:* Ultra-fast modern data pipelines, datasets larger than physical RAM on single nodes, and migrating bottlenecked Pandas code.
 
-5. **[NumPy](https://github.com/numpy/numpy)** [![GitHub stars](https://img.shields.io/github/stars/numpy/numpy?style=social&color=white)](https://github.com/numpy/numpy/stargazers)  
+5. **[NumPy](https://github.com/numpy/numpy)** [![GitHub_Stars](https://img.shields.io/github/stars/numpy/numpy?style=social&color=white)](https://github.com/numpy/numpy/stargazers)  
    **The fundamental package for scientific computing with Python** (BSD-3-Clause). Introduces the N-dimensional `ndarray` object, linear algebra, Fourier transforms, and universal vectorized operations that underpin the entire Python scientific stack.  
    *Best for:* Homogeneous numeric array operations, matrix mathematics, and foundational numerical computing.
 
-6. **[Apache Arrow](https://github.com/apache/arrow)** [![GitHub stars](https://img.shields.io/github/stars/apache/arrow?style=social&color=white)](https://github.com/apache/arrow/stargazers)  
+6. **[Apache Arrow](https://github.com/apache/arrow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/arrow?style=social&color=white)](https://github.com/apache/arrow/stargazers)  
    **Cross-language development platform for in-memory columnar data** (Apache-2.0). Standardizes zero-copy inter-process communication, vectorized kernels, and columnar formatting across Polars, DuckDB, Spark, and Pandas 2.0+.  
    *Best for:* High-throughput data serialization, polyglot data exchange, and high-performance analytical storage integration.
 
-7. **[SciPy](https://github.com/scipy/scipy)** [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers)  
+7. **[SciPy](https://github.com/scipy/scipy)** [![GitHub_Stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers)  
    **Fundamental algorithms for scientific computing in Python** (BSD-3-Clause). Builds upon NumPy to deliver comprehensive algorithms for optimization, numerical integration, differential equations, signal processing, and statistical distributions.  
    *Best for:* Scientific analysis, signal processing, statistical hypothesis testing, and advanced math modeling.
 
-8. **[Dask](https://github.com/dask/dask)** [![GitHub stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
+8. **[Dask](https://github.com/dask/dask)** [![GitHub_Stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
    **Flexible library for parallel computing in Python** (BSD-3-Clause). Features `dask.dataframe`, which distributes familiar Pandas operations across multiple CPU cores or multi-node clusters using dynamic task scheduling.  
    *Best for:* Scaling existing Python data workflows beyond single-machine memory without adopting Java/JVM ecosystems.
 
-9. **[Modin](https://github.com/modin-project/modin)** [![GitHub stars](https://img.shields.io/github/stars/modin-project/modin?style=social&color=white)](https://github.com/modin-project/modin/stargazers)  
+9. **[Modin](https://github.com/modin-project/modin)** [![GitHub_Stars](https://img.shields.io/github/stars/modin-project/modin?style=social&color=white)](https://github.com/modin-project/modin/stargazers)  
    **Scale your Pandas workflows by changing a single line of code** (Apache-2.0). Employs Ray or Dask backends under the hood to automatically parallelize Pandas operations across all available CPU cores.  
    *Best for:* Instant speedups of legacy Pandas notebooks and scripts without refactoring code.
 
-10. **[RAPIDS cuDF](https://github.com/rapidsai/cudf)** [![GitHub stars](https://img.shields.io/github/stars/rapidsai/cudf?style=social&color=white)](https://github.com/rapidsai/cudf/stargazers)  
+10. **[RAPIDS cuDF](https://github.com/rapidsai/cudf)** [![GitHub_Stars](https://img.shields.io/github/stars/rapidsai/cudf?style=social&color=white)](https://github.com/rapidsai/cudf/stargazers)  
     **GPU-accelerated DataFrame library based on Apache Arrow** (Apache-2.0). Mimics the Pandas DataFrame API while executing computations on NVIDIA CUDA GPUs for 10x-100x acceleration.  
     *Best for:* Hardware-accelerated ETL, deep learning feature engineering, and massive tabular joins on GPU systems.
 
 ### ⚡ Distributed, GPU & In-Process Engines
 
-11. **[Vaex](https://github.com/vaexio/vaex)** [![GitHub stars](https://img.shields.io/github/stars/vaexio/vaex?style=social&color=white)](https://github.com/vaexio/vaex/stargazers)  
+11. **[Vaex](https://github.com/vaexio/vaex)** [![GitHub_Stars](https://img.shields.io/github/stars/vaexio/vaex?style=social&color=white)](https://github.com/vaexio/vaex/stargazers)  
     **Out-of-Core DataFrames for Python, visualizing and exploring big tabular data** (MIT). Employs memory-mapping (zero memory copy) to calculate statistics, filter, and render billion-row datasets instantaneously.  
     *Best for:* Interactive visualization and exploration of massive Parquet/HDF5 datasets on local laptops.
 
-12. **[Ibis](https://github.com/ibis-project/ibis)** [![GitHub stars](https://img.shields.io/github/stars/ibis-project/ibis?style=social&color=white)](https://github.com/ibis-project/ibis/stargazers)  
+12. **[Ibis](https://github.com/ibis-project/ibis)** [![GitHub_Stars](https://img.shields.io/github/stars/ibis-project/ibis?style=social&color=white)](https://github.com/ibis-project/ibis/stargazers)  
     **The Python Dataframe interface to 20+ query engines** (Apache-2.0). Provides a standard Pythonic dataframe syntax that compiles down into SQL or native dialect execution across DuckDB, Snowflake, BigQuery, ClickHouse, and Postgres.  
     *Best for:* Write-once-run-anywhere dataframe pipelines and multi-engine portability.
 
-13. **[Daft](https://github.com/Eventual-Inc/Daft)** [![GitHub stars](https://img.shields.io/github/stars/Eventual-Inc/Daft?style=social&color=white)](https://github.com/Eventual-Inc/Daft/stargazers)  
+13. **[Daft](https://github.com/Eventual-Inc/Daft)** [![GitHub_Stars](https://img.shields.io/github/stars/Eventual-Inc/Daft?style=social&color=white)](https://github.com/Eventual-Inc/Daft/stargazers)  
     **Distributed query engine for multimodal data, written in Rust and Python** (Apache-2.0). Built on Apache Arrow with seamless support for complex multimodal types (images, embeddings, audio, JSON) alongside tabular data.  
     *Best for:* Multimodal data processing, AI data curation, and distributed Arrow compute pipelines.
 
-14. **[GeoPandas](https://github.com/geopandas/geopandas)** [![GitHub stars](https://img.shields.io/github/stars/geopandas/geopandas?style=social&color=white)](https://github.com/geopandas/geopandas/stargazers)  
+14. **[GeoPandas](https://github.com/geopandas/geopandas)** [![GitHub_Stars](https://img.shields.io/github/stars/geopandas/geopandas?style=social&color=white)](https://github.com/geopandas/geopandas/stargazers)  
     **Geographic data tools for Python** (BSD-3-Clause). Extends Pandas data structures to support spatial geometries, spatial joins, and geometric operations powered by Shapely and GDAL/GEOS.  
     *Best for:* Geospatial data analysis, GIS mapping, and coordinates transformation pipelines.
 
-15. **[Databricks Koalas](https://github.com/databricks/koalas)** [![GitHub stars](https://img.shields.io/github/stars/databricks/koalas?style=social&color=white)](https://github.com/databricks/koalas/stargazers)  
+15. **[Databricks Koalas](https://github.com/databricks/koalas)** [![GitHub_Stars](https://img.shields.io/github/stars/databricks/koalas?style=social&color=white)](https://github.com/databricks/koalas/stargazers)  
     **Pandas API on Apache Spark** (Apache-2.0). Enables data scientists to remain productive with familiar Pandas semantics while scaling across Apache Spark clusters (now officially integrated into Apache Spark core).  
     *Best for:* Legacy Spark environments and bridging the gap between Pandas data scientists and Spark clusters.
 
-16. **[Fugue](https://github.com/fugue-project/fugue)** [![GitHub stars](https://img.shields.io/github/stars/fugue-project/fugue?style=social&color=white)](https://github.com/fugue-project/fugue/stargazers)  
+16. **[Fugue](https://github.com/fugue-project/fugue)** [![GitHub_Stars](https://img.shields.io/github/stars/fugue-project/fugue?style=social&color=white)](https://github.com/fugue-project/fugue/stargazers)  
     **A unified interface for distributed computing** (Apache-2.0). Seamlessly port native Python and Pandas code to Spark, Dask, and Ray without platform-specific boilerplate.  
     *Best for:* Cross-engine abstraction, seamless testing on local Pandas before deploying to Spark/Ray.
 
-17. **[Datatable](https://github.com/h2oai/datatable)** [![GitHub stars](https://img.shields.io/github/stars/h2oai/datatable?style=social&color=white)](https://github.com/h2oai/datatable/stargazers)  
+17. **[Datatable](https://github.com/h2oai/datatable)** [![GitHub_Stars](https://img.shields.io/github/stars/h2oai/datatable?style=social&color=white)](https://github.com/h2oai/datatable/stargazers)  
     **Data manipulation at scale for Python** (MPL-2.0). C-based multi-threaded data manipulation library inspired by R's `data.table`, prioritizing fast data ingestion, grouping, and memory efficiency.  
     *Best for:* Machine learning feature preprocessing and fast columnar operations on single nodes.
 
-18. **[Narwhals](https://github.com/narwhals-dev/narwhals)** [![GitHub stars](https://img.shields.io/github/stars/narwhals-dev/narwhals?style=social&color=white)](https://github.com/narwhals-dev/narwhals/stargazers)  
+18. **[Narwhals](https://github.com/narwhals-dev/narwhals)** [![GitHub_Stars](https://img.shields.io/github/stars/narwhals-dev/narwhals?style=social&color=white)](https://github.com/narwhals-dev/narwhals/stargazers)  
     **Lightweight, zero-dependency compatibility layer between dataframe libraries** (MIT). Enables library maintainers to support Polars, Pandas, Modin, cuDF, and PyArrow simultaneously with zero performance overhead.  
     *Best for:* Python data tooling authors building backend-agnostic dataframe plugins and libraries.
 
@@ -209,3 +209,12 @@ If this curated ecosystem helps optimize your data pipelines, benchmark your ana
 Let's make DataFrames & Data Analysis faster, leaner, and more scalable! 🚀
 
 </div>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Dataframes-Data-Analysis&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Dataframes-Data-Analysis_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Dataframes-Data-Analysis_growth.svg">
+  </picture>
+</a>
